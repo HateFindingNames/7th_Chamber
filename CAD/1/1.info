@@ -1,0 +1,119 @@
+
+    Systeminformationen
+                Status:   Berechnung ist beendet.
+                Produkt:   Flow Simulation 2021 SP4.0. Build: 5310
+                Computer-Name:   HUNTERDESKTOP
+                Anwendername:   Hunter
+                Prozessoren:   Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz
+                Arbeitsspeicher:   32709 MB / 23780 MB
+                Betriebssystem:   Windows 10 (or higher) (Version 10.0.19044)
+                CAD-Version:   SOLIDWORKS 2021 SP4.1
+                CPU-Geschwindigkeit:   4201 MHz
+
+    Allgemeine Informationen
+                Modell:   Chamber Master.SLDASM
+                Projektname:   Projekt(1)
+                Projektpfad:   \\Omv\hsrm\SS22\Cloud Chamber\1
+                Einheitensystem:   SI (m-kg-s)
+                Analyseart:   Extern (ohne Innenbereiche)
+                Hohlräume ohne Strömungsbedingungen ausschließen:   Aus
+                Koordinatensystem:   Globales Koordinatensystem
+                Referenzachse:   X
+
+    Physikalische Features
+                Wärmeleitung in Festkörpern:   Ein
+                Nur Wärmeleitung in Festkörpern:   Aus
+                Strahlung:   Aus
+                Gasstrahlung:   Aus
+                Zeitabhängig:   Aus
+                Schwerkrafteffekte:   Ein
+                Strömungstyp:   Laminar und turbulent
+                Strömung mit hoher Machzahl:   Aus
+                Luftfeuchtigkeit:   Aus
+                Freie Oberfläche:   Aus
+                Standardrauheit:   0 Mikrometer
+
+        Schwerkrafteinstellungen
+                X-Komponente:   0 m/s^2
+                Y-Komponente:   0 m/s^2
+                Z-Komponente:   -9.81 m/s^2
+
+    Berechnungsraum
+
+        Größe
+                X-Min:   -3.259 m
+                X-Max:   3.259 m
+                Y-Min:   -3.259 m
+                Y-Max:   3.259 m
+                Z-Min:   -3.419 m
+                Z-Max:   3.139 m
+                X-Größe:   6.518 m
+                Y-Größe:   6.518 m
+                Z-Größe:   6.558 m
+
+    Berechnungsnetz
+
+        Abmessungen des Basisnetzes
+                Anzahl der Zellen in X-Richtung:   34
+                Anzahl der Zellen in Y-Richtung:   34
+                Anzahl der Zellen in Z-Richtung:   32
+
+        Anzahl der Zellen
+                Zellen:   39925
+                Fluidzellen:   39056
+                Festkörperzellen:   869
+                Unregelmäßige Zellen:   0
+                Getrimmte Zellen:   0
+                Maximale Verfeinerungsstufe:   1
+
+    Ziele
+
+        Oberflächenziele
+
+            Oberflächenziel Mittelwert Wandtemperatur 1
+                Typ:   Oberflächenziel
+                Zieltyp:   Wandtemperatur
+                Berechnen:   Mittelwert
+                Flächen:   Fläche<1>@cold_plate-1
+                Koordinatensystem:   Globales Koordinatensystem
+                In Konvergenz verwenden :   Ein
+
+            Oberflächenziel Max Wandtemperatur 2
+                Typ:   Oberflächenziel
+                Zieltyp:   Wandtemperatur
+                Berechnen:   Maximalwert
+                Flächen:   Fläche<1>@cold_plate-1
+                Koordinatensystem:   Globales Koordinatensystem
+                In Konvergenz verwenden :   Ein
+
+            Oberflächenziel Wärmestrom 3
+                Typ:   Oberflächenziel
+                Zieltyp:   Wärmestrom
+                Flächen:   Fläche<1>@cold_plate-1
+                Koordinatensystem:   Globales Koordinatensystem
+                In Konvergenz verwenden :   Ein
+
+    Ziele
+                
+                Name                                          	Einheit   	Wert        	Verlauf   	Kriterien      	Delta          	In Konvergenz verwenden 
+                Oberflächenziel Mittelwert Wandtemperatur 1   	°C        	25.00       	100       	0.141702413    	0.0367033363   	Ein                     
+                Oberflächenziel Max Wandtemperatur 2          	°C        	25.00       	100       	0.135179528    	0.0358853177   	Ein                     
+                Oberflächenziel Wärmestrom 3                  	W         	2.139e-07   	100       	0.0337920985   	0.0033161149   	Ein                     
+
+    Allgemeine Informationen
+                Ausführen auf:   HUNTERDESKTOP
+                Anzahl Rechenkerne:   8
+                Iterationen:   68
+                CPU-Zeit:   27 s
+
+        Protokoll
+                Vernetzung gestartet	0:   18:55:35 , Apr 20
+                Vernetzung normal beendet	0:   18:55:49 , Apr 20
+                Daten werden zur Berechnung vorbereitet	0:   18:55:50 , Apr 20
+                Berechnung gestartet	0:   18:55:53 , Apr 20
+                Die Berechnung ist konvergiert, da die folgenden Kriterien erfüllt sind:	68:   18:56:17 , Apr 20
+                    Ziele sind konvergiert	68:   
+                Berechnung beendet	68:   18:56:22 , Apr 20
+                Daten werden zur Berechnung vorbereitet	0:   18:58:52 , Apr 20
+                Berechnung beendet	68:   18:58:53 , Apr 20
+                Warnungen:   Nicht gelöste Volumenquelle	Quellname : VS Temperatur 1, 		, 
