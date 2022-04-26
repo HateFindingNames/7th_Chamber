@@ -1,1 +1,1 @@
-﻿"wall_thickness"= 4mm"wall_height"= 300"edge_length"= 800mm"coldplate_circumference"= 4*"edge_length""L-profile_width"= 20mm"L-profile_thickness"= 1.5mm"extrusion_width"= 40mm"table_outer_offset"= 200mm
+﻿"wall_thickness"= 4mm"wall_height"= 300"edge_length"= 800mm"coldplate_circumference"= 4*"edge_length""L-profile_width"= 20mm"L-profile_thickness"= 1.5mm"extrusion_width"= 40mm"table_outer_offset"=200mm
